@@ -100,7 +100,7 @@ def main():
     init_session_state()
     
     if st.session_state.logged_in:
-        st.switch_page("app.py")
+        st.switch_page("pages/app")
     else:
         if st.session_state.show_register:
             register_page()
