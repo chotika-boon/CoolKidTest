@@ -5,7 +5,6 @@ import streamlit as st
 import streamlit as st
 from engine import RestaurantSelector, CardRecommender
 
-
 st.markdown(
     """
     <style>
